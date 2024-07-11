@@ -1,0 +1,28 @@
+.app {
+    text-align: center;
+  }
+  
+  .emoji-app {
+    text-align: center;
+  }
+  
+  .emoji-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .emoji-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .emoji-card span:first-child {
+    font-size: 2rem;
+  }
+  

@@ -1,0 +1,42 @@
+/* src/components/MemeCreator.css */
+
+.meme-creator {
+    text-align: center;
+  }
+  
+  .meme-creator input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+  }
+  
+  .meme-creator img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .meme-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .meme-text.top {
+    top: 10px;
+  }
+  
+  .meme-text.bottom {
+    bottom: 10px;
+  }
+  
