@@ -24,7 +24,8 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container">
+      <h1>Meme App Master</h1>
       <SearchBar onSearch={handleSearch} />
       <MemeList memes={memes} />
       <MemeUpload onUpload={handleUpload} />

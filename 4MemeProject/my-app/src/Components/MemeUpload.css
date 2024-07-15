@@ -1,16 +1,21 @@
 /* src/components/MemeUpload.css */
 
 .meme-upload {
-    border: 2px dashed #007bff;
-    padding: 20px;
-    text-align: center;
-    color: #007bff;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    cursor: pointer;
-  }
-  
-  .meme-upload p {
-    margin: 0;
-  }
-  
+  border: 2px dashed #007bff;
+  padding: 20px;
+  text-align: center;
+  color: #007bff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.meme-upload:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.meme-upload p {
+  margin: 0;
+}
